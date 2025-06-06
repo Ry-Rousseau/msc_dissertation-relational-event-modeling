@@ -5,7 +5,7 @@ This paper investigates the Reddit-driven AMC short squeeze of 2021 as a casestu
 
 All data is derived from the push shift data dump at academic torrents, includes all 2021 comments and submissions, here is the [link](https://academictorrents.com/details/9c263fc85366c1ef8f5bb9da0203f4c8c8db75f4).
 
-The _eventnet_ software used to run relational event model statistics is courtesy of Jeurgen Lerner, and can be downloaded from its [Github]([https://academictorrents.com/details/9c263fc85366c1ef8f5bb9da0203f4c8c8db75f4](https://github.com/juergenlerner/eventnet)). 
+The _eventnet_ software used to run relational event model statistics is courtesy of Jeurgen Lerner, and can be downloaded from its [Github](https://github.com/juergenlerner/eventnet)). 
 
 See the pdf of the final dissertation in the parent directory. 
 
