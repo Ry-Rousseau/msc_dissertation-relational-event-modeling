@@ -13,20 +13,20 @@ See the pdf of the final dissertation in the parent directory.
 
 The methods used here can be extended for future investigations of Reddit and social media networks. I invite any collaboration on this area, in particular, on methods for the analysis of large-N dynamic networks. 
 
-## Replication
+## Replication Folders
 R and Python are used for the analysis pipeline.
 
-### eventnet_configs
+#### eventnet_configs
 XML configuration files for the _eventnet_ java program specifying to the baseline, event-type and weighted REM statistic calculations.
 
-### modeling
+#### modeling
 The Cox Proportional Hazard models for 3-stage estimations of the relational event models. These correspond to: baseline, time-varying, and event type and weighted (both in stage 3). 
 
-### network construction 
+#### network construction 
 The data filtering and raw data collection steps. Note that raw Reddit data comes in the form of zst compressed files, so a script to handle this data and extract comments and submission related to a specific subreddit is provided.
 See paper pdf for network topography. 
 
-#### raw_parsing_scripts
+##### raw_parsing_scripts
 - zst_to_csv.py - module for zst to csv conversion function - decompresses the zst compressed push shift file - courtesy of [u/ramnamsatyahai](https://www.reddit.com/r/pushshift/comments/1cptl87/trouble_with_zst_to_csv/) 
 - combine_folder_multiprocess.py - script to filter raw zst files from pushshift dump to get subreddit specific data without full decompression - courtesy of [Watchful1](https://github.com/Watchful1/PushshiftDumps)
 
