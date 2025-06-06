@@ -30,6 +30,6 @@ See paper pdf for network topography.
 - zst_to_csv.py - module for zst to csv conversion function - decompresses the zst compressed push shift file - courtesy of [u/ramnamsatyahai](https://www.reddit.com/r/pushshift/comments/1cptl87/trouble_with_zst_to_csv/) 
 - combine_folder_multiprocess.py - script to filter raw zst files from pushshift dump to get subreddit specific data without full decompression - courtesy of [Watchful1](https://github.com/Watchful1/PushshiftDumps)
 
-### visualization 
+#### visualization 
 Code for all visuals: missing data, time-series and network structure.
 
